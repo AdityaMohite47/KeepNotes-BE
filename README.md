@@ -153,7 +153,3 @@ This backend is designed to work with [KeepNotes-FE](https://github.com/AdityaMo
 1. The backend is running on `http://localhost:8000`
 2. `CORS_ALLOWED_ORIGINS` in `.env` includes the frontend URL (`http://localhost:5173`)
 3. The frontend's Axios base URL points to `http://localhost:8000/api`
-
-## License
-
-MIT
