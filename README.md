@@ -1,8 +1,8 @@
 # KeepNotes — Backend (Django REST API)
 
-The backend API for [KeepNotes](https://github.com/YOUR_USERNAME/KeepNotes-FE), a Google Keep-style notes app. Built with Django REST Framework and PostgreSQL, secured with JWT authentication.
+The backend API for [KeepNotes](https://github.com/AdityaMohite47/KeepNotes), a Google Keep-style notes app. Built with Django REST Framework and PostgreSQL, secured with JWT authentication.
 
-> 🔗 **Frontend Repository:** [KeepNotes-FE](https://github.com/YOUR_USERNAME/KeepNotes-FE)
+> 🔗 **Frontend Repository:** [KeepNotes-FE](https://github.com/AdityaMohite47/KeepNotes)
 
 ## Features
 
@@ -148,7 +148,7 @@ Include header: `Authorization: Bearer <access_token>`
 
 ## Connecting to the Frontend
 
-This backend is designed to work with [KeepNotes-FE](https://github.com/YOUR_USERNAME/KeepNotes-FE). Make sure:
+This backend is designed to work with [KeepNotes-FE](https://github.com/AdityaMohite47/KeepNotes). Make sure:
 
 1. The backend is running on `http://localhost:8000`
 2. `CORS_ALLOWED_ORIGINS` in `.env` includes the frontend URL (`http://localhost:5173`)
